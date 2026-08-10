@@ -184,14 +184,28 @@ h3{font-size:16px;font-weight:700;line-height:1.3}
 }
 @media (max-width:620px){
 .g2,.g3,.g4{grid-template-columns:1fr}
-}</style>
+}
+
+.logo-w{display:flex;align-items:center}
+.logo-img{display:block;height:40px;width:auto;max-width:250px;object-fit:contain}
+.logo-img+.logo-fb{display:none}
+.ft .logo-img{height:52px;max-width:320px}
+@media (min-width:768px){.logo-img{height:48px;max-width:320px}.ft .logo-img{height:60px;max-width:360px}}
+.ph.fit{aspect-ratio:auto;min-height:120px;display:flex;align-items:center;justify-content:center}
+.ph.fit img{width:100%;height:auto;max-height:62vh;object-fit:contain}
+@media (min-width:768px){.ph.fit img{max-height:560px}}
+.fab .f-back{background:var(--ink3)}
+.fab .f-back:hover{background:var(--acc)}
+.fab.dim a,.fab.dim button{opacity:.14}
+.fab.dim:hover a,.fab.dim:hover button,.fab.dim:focus-within a,.fab.dim:focus-within button{opacity:1}
+.fab.dim .f-top:not(.on){opacity:0}</style>
 
 <!-- Google Ads / Analytics: вставьте сюда тег gtag.js -->
 </head>
 <body>
 <header class="hd">
 <div class="wrap hd-in">
-<a href="index.html" class="logo" aria-label="ХИМЗОНА — на главную"><svg viewBox="0 0 236 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ХИМЗОНА — дезинфекция, Алматы"><text x="0" y="20" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ХИМЗОНА</text><text x="1" y="33" font-family="system-ui,Arial,sans-serif" font-weight="600" font-size="8.5" letter-spacing="2.8" fill="#E10600">ДЕЗИНФЕКЦИЯ · АЛМАТЫ</text></svg></a>
+<a href="index.html" class="logo" aria-label="ХИМЗОНА — на главную"><span class="logo-w"><img src="images/logo.png" alt="ХИМЗОНА — дезинфекция и уничтожение насекомых в Алматы" class="logo-img" width="300" height="50" decoding="async" onerror="this.remove()"><span class="logo-fb"><svg viewBox="0 0 236 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ХИМЗОНА — дезинфекция, Алматы"><text x="0" y="20" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ХИМЗОНА</text><text x="1" y="33" font-family="system-ui,Arial,sans-serif" font-weight="600" font-size="8.5" letter-spacing="2.8" fill="#E10600">ДЕЗИНФЕКЦИЯ · АЛМАТЫ</text></svg></span></span></a>
 <nav class="nav"><a href="unichtozhenie-klopov.html">Клопы</a><a href="unichtozhenie-tarakanov.html" aria-current="page">Тараканы</a><a href="deratizaciya.html">Грызуны</a><a href="dezinfekciya-pomescheniy.html">Дезинфекция</a><a href="index.html#services">Все услуги</a><a href="index.html#contacts">Контакты</a></nav>
 <div class="hd-cta">
 <a href="tel:+77082710671" class="tel" data-conv="call">+7 708 271 06 71</a>
@@ -202,7 +216,7 @@ h3{font-size:16px;font-weight:700;line-height:1.3}
 </header>
 <div class="ovl" id="ovl"></div>
 <aside class="drw" id="drw" aria-label="Меню">
-<div class="drw-hd"><svg viewBox="0 0 236 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ХИМЗОНА — дезинфекция, Алматы"><text x="0" y="20" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ХИМЗОНА</text><text x="1" y="33" font-family="system-ui,Arial,sans-serif" font-weight="600" font-size="8.5" letter-spacing="2.8" fill="#E10600">ДЕЗИНФЕКЦИЯ · АЛМАТЫ</text></svg><button class="burger" id="drwclose" aria-label="Закрыть меню"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+<div class="drw-hd"><span class="logo-w"><img src="images/logo.png" alt="ХИМЗОНА — дезинфекция и уничтожение насекомых в Алматы" class="logo-img" width="300" height="50" decoding="async" onerror="this.remove()"><span class="logo-fb"><svg viewBox="0 0 236 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ХИМЗОНА — дезинфекция, Алматы"><text x="0" y="20" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ХИМЗОНА</text><text x="1" y="33" font-family="system-ui,Arial,sans-serif" font-weight="600" font-size="8.5" letter-spacing="2.8" fill="#E10600">ДЕЗИНФЕКЦИЯ · АЛМАТЫ</text></svg></span></span><button class="burger" id="drwclose" aria-label="Закрыть меню"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
 <nav><a href="unichtozhenie-klopov.html">Уничтожение клопов</a><a href="unichtozhenie-tarakanov.html">Уничтожение тараканов</a><a href="deratizaciya.html">Дератизация: крысы и мыши</a><a href="unichtozhenie-muravyov.html">Уничтожение муравьёв</a><a href="unichtozhenie-blokh.html">Уничтожение блох</a><a href="dezinfekciya-pomescheniy.html">Дезинфекция помещений</a><a href="obrabotka-uchastka.html">Обработка участка от клещей и комаров</a><a href="ustranenie-zapahov.html">Устранение запахов и озонирование</a><a href="index.html#portfolio">Работы</a><a href="index.html#about">О службе</a><a href="index.html#contacts">Контакты</a>
 <div class="mt24"><a href="tel:+77082710671" style="display:block;color:#fff;font-size:19px;font-weight:800;margin-bottom:14px" data-conv="call">+7 708 271 06 71</a>
 <a href="https://wa.me/77082710671?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20himzona.kz.%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0." target="_blank" rel="noopener" class="btn full" data-conv="wa">Написать в WhatsApp</a></div>
@@ -220,7 +234,7 @@ h3{font-size:16px;font-weight:700;line-height:1.3}
 <a href="https://wa.me/77082710671?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20himzona.kz.%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0." target="_blank" rel="noopener" class="btn up" data-conv="wa">Вызвать бригаду</a>
 <a href="tel:+77082710671" class="btn-o btn-w" data-conv="call">+7 708 271 06 71</a>
 </div>
-<div class="mt32"><div class="ph r169"><span class="lbl">service-tarakany.webp</span><img src="images/service-tarakany.webp" alt="Уничтожение тараканов" fetchpriority="high" decoding="async" onerror="this.remove()"></div></div>
+<div class="mt32"><div class="ph hero-band fit"><span class="lbl">service-tarakany.webp</span><img src="images/service-tarakany.webp" alt="Уничтожение тараканов" fetchpriority="high" decoding="async" onerror="this.remove()"></div></div>
 </div>
 </section>
 
@@ -281,7 +295,7 @@ h3{font-size:16px;font-weight:700;line-height:1.3}
 <footer class="dark2 ft">
 <div class="wrap" style="padding-top:52px;padding-bottom:44px">
 <div class="grid g4">
-<div><svg viewBox="0 0 236 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ХИМЗОНА — дезинфекция, Алматы"><text x="0" y="20" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ХИМЗОНА</text><text x="1" y="33" font-family="system-ui,Arial,sans-serif" font-weight="600" font-size="8.5" letter-spacing="2.8" fill="#E10600">ДЕЗИНФЕКЦИЯ · АЛМАТЫ</text></svg>
+<div><span class="logo-w"><img src="images/logo.png" alt="ХИМЗОНА — дезинфекция и уничтожение насекомых в Алматы" class="logo-img" width="300" height="50" decoding="async" onerror="this.remove()"><span class="logo-fb"><svg viewBox="0 0 236 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ХИМЗОНА — дезинфекция, Алматы"><text x="0" y="20" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ХИМЗОНА</text><text x="1" y="33" font-family="system-ui,Arial,sans-serif" font-weight="600" font-size="8.5" letter-spacing="2.8" fill="#E10600">ДЕЗИНФЕКЦИЯ · АЛМАТЫ</text></svg></span></span>
 <p class="sub mt16" style="font-size:14px">Санитарная служба в Алматы: уничтожение насекомых и грызунов, дезинфекция помещений, обработка участков. Работаем с квартирами, домами и бизнесом.</p></div>
 <div class="ft-col"><div class="up mb16" style="font-size:13px;font-weight:700">Услуги</div><ul><li><a href="unichtozhenie-klopov.html">Уничтожение клопов</a></li><li><a href="unichtozhenie-tarakanov.html">Уничтожение тараканов</a></li><li><a href="deratizaciya.html">Дератизация: крысы и мыши</a></li><li><a href="unichtozhenie-muravyov.html">Уничтожение муравьёв</a></li></ul></div>
 <div class="ft-col"><div class="up mb16" style="font-size:13px;font-weight:700">&nbsp;</div><ul><li><a href="unichtozhenie-blokh.html">Уничтожение блох</a></li><li><a href="dezinfekciya-pomescheniy.html">Дезинфекция помещений</a></li><li><a href="obrabotka-uchastka.html">Обработка участка от клещей и комаров</a></li><li><a href="ustranenie-zapahov.html">Устранение запахов и озонирование</a></li><li><a href="index.html#portfolio">Работы</a></li><li><a href="index.html#about">О службе</a></li></ul></div>
@@ -297,6 +311,7 @@ h3{font-size:16px;font-weight:700;line-height:1.3}
 </div></div>
 </footer>
 <div class="fab">
+<a href="index.html" class="f-back" id="fabBack" aria-label="Назад"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg></a>
 <button type="button" class="f-top" id="toTop" aria-label="Наверх"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 <a href="tel:+77082710671" class="f-call" aria-label="Позвонить" data-conv="call"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg></a>
 <a href="https://wa.me/77082710671?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20himzona.kz.%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0." target="_blank" rel="noopener" class="f-wa" aria-label="Написать в WhatsApp" data-conv="wa"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3M12 2a10 10 0 00-8.6 15L2 22l5.1-1.3A10 10 0 1012 2z"/></svg></a>
@@ -316,10 +331,21 @@ h3{font-size:16px;font-weight:700;line-height:1.3}
  function upd(){t.classList.toggle('on',(window.pageYOffset||document.documentElement.scrollTop)>400);}
  window.addEventListener('scroll',upd,{passive:true});upd();
  t.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
- var b=document.getElementById('goBack');
- if(b)b.addEventListener('click',function(e){
+ function goBack(e){
   if(document.referrer&&document.referrer.indexOf(location.host)>-1&&history.length>1){e.preventDefault();history.back();}
- });
+ }
+ var b1=document.getElementById('goBack'),b2=document.getElementById('fabBack');
+ if(b1)b1.addEventListener('click',goBack);
+ if(b2)b2.addEventListener('click',goBack);
+ var fab=document.querySelector('.fab');
+ function dim(){
+  var y=window.pageYOffset||document.documentElement.scrollTop;
+  var d=document.documentElement;
+  fab.classList.toggle('dim',y+window.innerHeight>=d.scrollHeight-120);
+ }
+ window.addEventListener('scroll',dim,{passive:true});
+ window.addEventListener('resize',dim,{passive:true});
+ dim();
 })();
 /* Конверсии Google Ads: вставьте label вместо XXXXXXXX (и сам тег gtag.js в <head>) */
 var AW_CALL='AW-0000000000/XXXXXXXX', AW_WA='AW-0000000000/XXXXXXXX';
